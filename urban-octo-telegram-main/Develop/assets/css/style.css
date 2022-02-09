@@ -50,12 +50,12 @@ header a {
 
 /* Jumbotron image and styling*/
 .hero {
-  height: 800px;
+  height: 900px;
   width: 100%;
   margin-bottom: 25px;
   background-image: url("../images/digital-marketing-meeting.jpg");
-  background-size: cover;
-  background-position: center;
+  background-size: 100% 100%;
+  background-position: top;
 }
 main {
   width: 75%;
@@ -72,9 +72,18 @@ main {
   background-color: #0072bb;
   color: #ffffff;
 }
-/* */
+
 .content p {
   font-size: 20px;
+}
+
+.content img {
+  max-height: 200px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .float-left {
@@ -89,7 +98,7 @@ main {
 
 .benefits {
   margin-right: 20px;
-  padding: 20px;
+  padding: 43px;
   width: 20%;
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
@@ -118,34 +127,7 @@ main {
   text-align: center;
 }
 
-.search-engine-optimization img {
-  max-height: 200px;
-}
-
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.footer {
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -153,6 +135,6 @@ main {
   text-align: center;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 20px;
 }
