@@ -1,9 +1,9 @@
-# horiseon
-## purpose
+# Horiseon
+## Purpose
 a website built to help people maximize there online presence
-##built with
-css,html
-## website
+## Built with
+CSS, HTML
+## Website
 https://lemonsma.github.io/horiseon/
-###contribution
+### Contribution
 made by cory burris
