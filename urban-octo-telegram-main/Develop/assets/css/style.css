@@ -57,12 +57,14 @@ header a {
   background-size: 100% 100%;
   background-position: top;
 }
+
+/* Parent container styling for main content*/
 main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-
+/* styling for the children of the main content. */
 .content {
   margin-bottom: 20px;
   padding: 50px;
@@ -85,7 +87,7 @@ main {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/* classes created to give certain  elements a float left or right style*/
 .float-left {
   float: left;
   margin-right: 25px;
@@ -95,7 +97,7 @@ main {
   float: right;
   margin-left: 25px;
 }
-
+/*styling for parent container of the benefits section */
 .benefits {
   margin-right: 20px;
   padding: 43px;
@@ -107,7 +109,7 @@ main {
   float: right;
   clear: both;
 }
-
+/* styling of children inside the benefits section*/
 .benefit-content {
   margin-bottom: 32px;
   color: #ffffff;
